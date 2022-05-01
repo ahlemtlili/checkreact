@@ -1,0 +1,55 @@
+Form {display: flex;
+  flex-direction: column;
+  position: absolute;    
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 8px 16px;
+  box-sizing: border-box;
+  width: 396px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-radius: 8px;
+  margin: 0px 500px 0px;
+  padding: 5px 6px 90px;
+  background:white
+;}  
+.App,.contr {
+  
+  text-align:center;
+  width: 900px;
+  padding:157;
+  margin: 20;
+
+}
+.lab{color:brown;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: larger;
+
+
+}
+.ha, Form {
+  margin-top:80px;
+
+}
+.ha {
+  display: flex;
+  width: 152%; 
+  padding: right 5px;
+  font-size:x-large;
+  margin-top:1px;
+ 
+}
+
+
+.App button{
+ 
+  margin-top: 34px;
+  padding-top: 6px;
+  margin-top: 290px;
+}
+ button{
+  position:absolute;
+  width: 270px;
+ ; 
+}
+
