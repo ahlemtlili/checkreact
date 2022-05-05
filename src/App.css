@@ -34,13 +34,11 @@ Form {display: flex;
 .ha {
   display: flex;
   width: 152%; 
-  padding: right 5px;
+  padding-right:200px;
   font-size:x-large;
   margin-top:1px;
  
 }
-
-
 .App button{
  
   margin-top: 34px;

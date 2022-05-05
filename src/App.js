@@ -1,17 +1,18 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form' ;
-import {FormControl,FormSelect, FormGroup, ControlLabel, HelpBlock, Checkbox, Radio, Button} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
-import {NavbarBrand,NavLink,Container,Nav,NavDropdown } from "react-bootstrap";
+import {Container,Nav,NavDropdown } from "react-bootstrap";
 import React from 'react';
-
 function App() {
   return (
     <div className="App " >
-      <Navbar className="ha" bg="primary" variant="dark">
+      <Navbar className="ha" bg="primary" expand="sm"variant="dark">
     <Container>
     <Navbar.Brand href="#home">Inscription</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#features">Work</Nav.Link>
@@ -24,9 +25,10 @@ function App() {
           <NavDropdown.Item href="#action/3.4">Twitter</NavDropdown.Item>
         </NavDropdown>
     </Nav>
+    </Navbar.Collapse>
     </Container>
   </Navbar>
-      <Form className="for" >
+      <Form className="for" expand="sm">
   <Form.Group className="mb-3 name" controlId="formBasicEmail">
     <Form.Label className='lab'>Email address</Form.Label>
     <Form.Control className="contr" type="email" placeholder="Enter email" />
